@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    gap: 20px;
+}
+
+.header{
+    display: flex;
+    color: white;
+    background-color: #2b84496f;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+   margin-left: auto;
+   margin-right: auto;
+
+   
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header>a:hover{
+    background-color: rgba(255, 174, 0, 0.934);
+    padding: 8px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    transform: scale(0.95);
+}
+
+
+
+.person{
+    width: 80%;
+    background-color:rgba(255, 174, 0, 0.934);
+    flex-wrap: wrap;
+    border-radius: 25px;
+
+}
+
+.im{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 400px;
+}
+
+.person:hover{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+body{
+    background-color:#1b512dfc;
+}
+
+a{
+    margin-top: 20px;
+     text-decoration: none;
+     display: flex;
+     justify-content: space-evenly;
+     color: white;
+     margin: 20px;
+}
+
+.m1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 5px;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    flex-grow: 2;
+}
+
+.m1-d1{
+    flex-wrap: wrap;
+}
+
+.m1>div>h6{
+    background-color:rgba(255, 174, 0, 0.29);
+    width:fit-content;
+    font-size: large;
+    padding: 10px;
+}
+
+.m1>div{
+    /* 
+    font-size:38px;
+    font-weight: bold;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; */
+    color: white;
+    flex-wrap: wrap;
+    
+}
+
+.m1>div>p{
+    font-size:large;
+    font-weight: lighter;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+.m1>div>h2{
+    margin-top: 8px;
+    font-size:50px;
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
+
+.m1>div>h2>span{
+    background-color:rgba(255, 174, 0, 0.934);
+    width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.m1button{
+background-color:dodgerblue;
+padding: 20px;
+width: 200px;
+color: aliceblue;
+font-weight: bold;
+line-height: 3px;
+border-radius: 25px;
+margin-top: 10px;
+}
+
+.m1button:hover{
+    margin-left: 30;
+    margin-top: 20px;
+    font-size:20px ;
+    width: fit-content;
+}
+
+
+#hd-btn{
+    height: 40px;
+    background-color: rgba(255, 174, 0, 0.934);
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom: auto;
+    flex-wrap: wrap;
+}
+
+#hd-p{
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
