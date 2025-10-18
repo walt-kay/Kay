@@ -270,6 +270,10 @@ a {
     width: 90%;
     margin-bottom: -100px;
   }
+
+  .sec2{
+    width: fit-content;
+  }
 }
 
 footer {
@@ -328,8 +332,8 @@ footer {
     margin-right: auto;
     flex-shrink: 1;
     height: 620px;
-    overflow:visible;
-    overflow-wrap: ;
+    overflow:scroll;
+    /* overflow-wrap:hidden; */
     align-content: center;
     /* width: fit-content; */
 }
